@@ -6,7 +6,7 @@ metadata:
      app: mysql
 spec:
   capacity:
-    storage: 5Gi
+    storage: 0.5Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
